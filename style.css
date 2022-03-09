@@ -12,8 +12,6 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
   background: rgb(92, 0, 255);
   background: -moz-linear-gradient(
     0deg,
@@ -35,7 +33,7 @@ body {
 
 nav ul {
   margin: 1em auto;
-  width: 80%;
+  width: 90%;
   display: flex;
   list-style: none;
   justify-content: right;
@@ -43,15 +41,12 @@ nav ul {
 
 nav i {
   color: var(--white);
-  font-size: 2em;
-  padding: 0.3em 0.4em;
+  font-size: 1.5em;
+  padding: 0.3em;
 }
 
 .landing {
-  margin: 3em 0;
-  display: flex;
-  width: 95%;
-  justify-content: right;
+  margin: 2em 0;
   border: solid 3px white;
 }
 
@@ -64,7 +59,6 @@ nav i {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  margin: 2em 0em 4em 0;
   border: solid 3px white;
 }
 
@@ -77,7 +71,6 @@ nav i {
   width: 280px;
   height: 310px;
   border-radius: 0 0 50% 50%;
-  margin: 0 auto;
 }
 
 .landing-title1,
@@ -91,16 +84,21 @@ nav i {
   font-size: 1.5em;
   text-align: right;
   position: relative;
-  margin-right: -2.6em;
 }
 
 .landing-title2 {
-  font-size: 6em;
-  padding: 0.5em 0;
+  font-size: 2em;
+  padding: 0.2em;
 }
 
 .landing-title3 {
-  width: 40%;
-  text-align: center;
+  color: var(--viola-text);
+  text-align: left;
+  padding: 0.2em;
   border: solid 3px white;
+}
+
+.projects-title {
+  color: var(--white);
+  font-size: 2em;
 }
