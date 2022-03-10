@@ -1,0 +1,18 @@
+const mail = document.getElementById('mail')
+
+mail.onclick = function () {
+  const tooltip = document.getElementById('tooltip');
+  navigator.clipboard.writeText('aleksandrajovanovska218@gmail.com');
+  tooltip.innerHTML = "Copied!";
+  setTimeout(() => { tooltip.innerHTML = "Copy e-mail"; }, 5000);
+};
+
+const mail2 = document.getElementById('mail2')
+
+mail2.onclick = function () {
+  const tooltip2 = document.getElementById('tooltip2');
+  navigator.clipboard.writeText('aleksandrajovanovska218@gmail.com');
+  tooltip2.innerHTML = "Copied!";
+  setTimeout(() => { tooltip2.innerHTML = "Copy e-mail"; }, 5000);
+};
+
