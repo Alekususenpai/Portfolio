@@ -11,7 +11,9 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mohave:ital,wght@1,500&family=Poppins:wght@500&display=swap"
+    rel="stylesheet">
+
   <title>Portfolio</title>
 </head>
 
@@ -19,9 +21,11 @@
   <header>
     <nav>
       <ul>
-        <li><i class="fa-brands fa-github"></i></li>
+        <li><a href="https://github.com/Alekususenpai"><i class="fa-brands fa-github"></i></a></li>
         <li><i class="fa-brands fa-linkedin-in"></i></li>
-        <li><i class="fa-solid fa-paper-plane"></i></li>
+        <li><i class="fa-solid fa-paper-plane" id="mail"></i>
+          <p class="tooltiptext" id="tooltip">Copy e-mail</p>
+        </li>
       </ul>
     </nav>
   </header>
@@ -37,12 +41,159 @@
 
       <div class="landing-text">
         <h1 class="landing-title2">FrontEnd Developer</h1>
-
+        <h3 class="landing-title3">What best describes me is - a curious mind that enjoys problem-solving and finding
+          creative and efficient solutions. My skill stack is MERN: MongoDB, Express, ReactJS, NodeJS.</h3>
       </div>
     </div>
-    <div class="projects"></div>
+
+    <div class="education">
+      <h2 class="title">Education & Certificates</h2>
+      <ol class="education-text">
+        <li>
+          <h3>Complete React Developer by Zero to Mastery Academy - on going </h3>
+          <p>React Basics, React Router, Redux, ContextAPI, Firebase</p>
+        <li>
+          <h3>Microsoft Technology Associate:Introduction to Programming Using HTML and CSS (MTA-98-383)
+          </h3>
+        </li>
+        <li>
+          <h3>Front-end MERN Stack Development by Semos Education</h3>
+          <p>Modules: Programming in HTML5 with JavaScript and CSS3, Node.js & MongoDB, React.js</p>
+        </li>
+        <li>
+          <h3>The Web Developer Bootcamp by Udemy</h3>
+          <p>HTML5, CSS3, JavaScript, Node.js, MongoDB</p>
+        </li>
+      </ol>
+    </div>
+
+    <div class="projects">
+      <h2 class="title">My projects</h2>
+
+      <div class="single-project">
+        <a href="https://alekususenpai.github.io/Caffeinated/">
+          <div class="single-project-img one">
+            <div class="single-project-overlay"><span class="number">01</span>
+              <p>Go to project<span> <i class="fa-solid fa-arrow-right-long"> </i></span></p>
+            </div>
+          </div>
+        </a>
+
+        <div class="single-project-text">
+          <h3 class="single-project-title">Caffeinated</h3>
+          <p class="single-project-description">☕ Caffeinated features 20 of the most acclaimed coffees up to now. Read
+            about their description and ingredients here. ➡️ Made with ReactJS.</p>
+        </div>
+      </div>
+
+      <div class="single-project">
+        <a href="https://alekususenpai.github.io/crl-landing-page/">
+          <div class="single-project-img two">
+            <div class="single-project-overlay"><span class="number">02</span>
+              <p>Go to project<span> <i class="fa-solid fa-arrow-right-long"> </i></span></p>
+            </div>
+          </div>
+        </a>
+
+        <div class="single-project-text">
+          <h3 class="single-project-title">CRL Landing page</h3>
+          <p class="single-project-description">Figma design turned into code. ✍🏼💻 Website's Landing page with a RWD
+            following the “Mobile First” principle.</p>
+        </div>
+      </div>
+
+
+      <div class="single-project">
+        <a href="https://book-reviews-app01.herokuapp.com">
+          <div class="single-project-img three">
+            <div class="single-project-overlay"><span class="number">03</span>
+              <p>Go to project<span> <i class="fa-solid fa-arrow-right-long"> </i></span></p>
+            </div>
+          </div>
+        </a>
+
+        <div class="single-project-text">
+          <h3 class="single-project-title">Book Reviews</h3>
+          <p class="single-project-description">🔖 Book reviews depository to get you inspired and choose your next book
+            to read! 📖 Made with EJS, NodeJS and MongoDB.</p>
+        </div>
+      </div>
+
+
+      <div class="single-project">
+        <a href="https://alekususenpai.github.io/didactic-fork/">
+          <div class="single-project-img four">
+            <div class="single-project-overlay"><span class="number">04</span>
+              <p>Go to project<span> <i class="fa-solid fa-arrow-right-long"> </i></span></p>
+            </div>
+          </div>
+        </a>
+
+        <div class="single-project-text">
+          <h3 class="single-project-title">Anime Kitsu</h3>
+          <p class="single-project-description">Share anime and manga experiences, get recommendations and see what
+            friends are watching or reading.</p>
+        </div>
+      </div>
+
+
+      <div class="single-project">
+        <a href="https://alekususenpai.github.io/work-board/">
+          <div class="single-project-img five">
+            <div class="single-project-overlay"><span class="number">05</span>
+              <p>Go to project<span> <i class="fa-solid fa-arrow-right-long"> </i></span></p>
+            </div>
+          </div>
+        </a>
+
+        <div class="single-project-text">
+          <h3 class="single-project-title">Work Board</h3>
+          <p class="single-project-description">The place you can go to when you want to study/work with Pomodoro
+            technique, finish tasks and keep your motivation.</p>
+        </div>
+      </div>
+
+
+      <div class="single-project">
+        <a href="https://alekususenpai.github.io/Rick-n-Morty/">
+          <div class="single-project-img six">
+            <div class="single-project-overlay"><span class="number">06</span>
+              <p>Go to project<span> <i class="fa-solid fa-arrow-right-long"> </i></span></p>
+            </div>
+          </div>
+        </a>
+
+        <div class="single-project-text">
+          <h3 class="single-project-title">Rick-n-Morty</h3>
+          <p class="single-project-description">Project dedicated to this fun animated series using Rick&Morty API. For
+            further info on characters, episodes and locations, check the website. 𝐆𝐨 𝐭𝐨 𝐭𝐡𝐞 𝐩𝐨𝐫𝐭𝐚𝐥 🔫</p>
+        </div>
+      </div>
   </main>
-  <footer></footer>
+  <footer>
+    <h2>Find me on:</h2>
+    <ul>
+      <li class="list-items">
+        <a href="https://github.com/Alekususenpai">
+          <p> Github</p>
+        </a>
+      </li>
+      <li class="list-items">
+        <a href="">
+          <p> LinkedIn</p>
+        </a>
+      </li>
+      <li class="list-items" id="mail2">
+        <p class="tooltiptext" id="tooltip2">Copy e-mail</p>
+
+        <p>Gmail</p>
+
+      </li>
+    </ul>
+    <p>@2022 Alekusu</p>
+  </footer>
+
+  <script src="./app.js"></script>
 </body>
 
 </html>
