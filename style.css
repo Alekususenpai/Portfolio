@@ -53,7 +53,7 @@ nav ul {
 
 nav i {
   color: var(--white);
-  font-size: 1.5em;
+  font-size: 4.5vmin;
   padding: 0.3em;
 }
 
@@ -68,9 +68,7 @@ nav i:active {
 /* LANDING */
 
 .landing {
-  margin: 2em 0;
-  border: solid 3px white;
-  padding: 0 0.2em;
+  margin: 10vh auto;
 }
 
 .img-container {
@@ -82,6 +80,7 @@ nav i:active {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-left: 8%;
 }
 
 .img {
@@ -98,33 +97,40 @@ nav i:active {
 .landing-title1,
 .landing-title2 {
   color: var(--white);
-  border: solid 3px white;
 }
 
 .landing-title1 {
-  font-size: 6vw;
-  text-align: right;
+  font-size: 5vmin;
+  position: absolute;
+  left: 230px;
+  top: -30px;
+  width: fit-content;
+}
+
+.landing-text {
+  margin: 4vh 0;
+  margin-left: 3vw;
 }
 
 .landing-title2 {
   color: #f3f2f4;
-  font-size: 8vw;
+  font-size: 7vw;
   line-height: 9vw;
-  padding-left: 0.3em;
 }
 
 .landing-title3 {
   font-weight: lighter;
   color: #e5f7f7d0;
-  text-align: left;
-  padding: 0.5em;
-  border: solid 3px white;
+  text-align: justify;
+  width: 85%;
+  margin-top: 2vh;
+  line-height: 4vh;
 }
 
 /*  EDUCATION   */
 
 .education {
-  margin: 5em 0.5em;
+  margin: 3em 1em;
 }
 
 .education-text li {
@@ -144,7 +150,7 @@ nav i:active {
 /*  PROJECTS   */
 
 .projects {
-  margin: 5em 0.5em;
+  margin: 3em 1em;
   display: flex;
   flex-direction: column;
 }
@@ -152,8 +158,8 @@ nav i:active {
 /*education and projects*/
 .title {
   font-family: AvertaBold, sans-serif;
-  font-size: 8vw;
-  line-height: 9.4vw;
+  font-size: 7vmax;
+  line-height: 9.8vw;
   color: rgba(0, 0, 0, 0);
   -webkit-text-stroke: 1px #cecae3;
   -webkit-font-smoothing: antialiased;
@@ -162,8 +168,20 @@ nav i:active {
 .single-project {
   width: 90%;
   margin: 3em 0;
-  border: solid 3px white;
-  background-color: #e5f7f7;
+  border: solid 1px rgba(245, 245, 245, 0.61);
+  background-color: rgba(245, 245, 245, 0.055);
+}
+
+.single-project-text {
+  color: var(--viola-text);
+  padding: 1em 3em 3em 3em;
+  line-height: 3vh;
+}
+
+.single-project-title {
+  font-size: 1.7em;
+  color: var(--white);
+  margin: 0.7em 0;
 }
 
 .single-project:nth-child(odd) {
@@ -203,7 +221,7 @@ nav i:active {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  height: 300px;
+  height: 60vh;
 }
 
 .single-project-overlay:hover {
@@ -254,16 +272,6 @@ nav i:active {
 
 .single-project-overlay .number:nth-child(odd) {
   right: 15px;
-}
-
-.single-project-text {
-  color: var(--viola-text);
-  padding: 1em 2em 2em 2em;
-}
-
-.single-project-title {
-  font-size: 1.7em;
-  color: var(--hero);
 }
 
 /*   FOOTER */
@@ -327,4 +335,27 @@ footer ul {
 nav ul li:last-child:hover .tooltiptext {
   visibility: visible;
   margin-left: -40px;
+}
+
+@media only screen and (min-width: 700px) {
+  .landing {
+    display: flex;
+    margin-top: 15vh;
+  }
+  .landing-text {
+    padding: 2em 0.2em 1em 0.2em;
+  }
+  .landing-title1 {
+    top: -50px;
+  }
+  .projects {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .single-project {
+    width: 55%;
+  }
+  .education {
+    margin-bottom: 7em;
+  }
 }
