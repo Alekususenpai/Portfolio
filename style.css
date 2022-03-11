@@ -42,9 +42,13 @@ body {
   --viola-text: #8c85f3;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav ul {
   margin: 1em auto;
-  width: 90%;
+  width: 85%;
   display: flex;
   list-style: none;
   justify-content: right;
@@ -53,7 +57,7 @@ nav ul {
 
 nav i {
   color: var(--white);
-  font-size: 4.5vmin;
+  font-size: 6.5vmin;
   padding: 0.3em;
 }
 
@@ -68,7 +72,7 @@ nav i:active {
 /* LANDING */
 
 .landing {
-  margin: 10vh auto;
+  margin: 9vh auto;
 }
 
 .img-container {
@@ -89,8 +93,8 @@ nav i:active {
   content: "";
   background-image: url("img.png");
   background-size: cover;
-  width: 280px;
-  height: 308px;
+  width: 279px;
+  height: 303px;
   border-radius: 0 0 50% 50%;
 }
 
@@ -103,48 +107,25 @@ nav i:active {
   font-size: 5vmin;
   position: absolute;
   left: 230px;
-  top: -30px;
   width: fit-content;
 }
 
 .landing-text {
-  margin: 4vh 0;
-  margin-left: 3vw;
+  margin: 4vh auto;
+  width: 91%;
 }
 
 .landing-title2 {
   color: #f3f2f4;
-  font-size: 7vw;
-  line-height: 9vw;
+  font-size: 9vw;
 }
 
 .landing-title3 {
   font-weight: lighter;
   color: #e5f7f7d0;
   text-align: justify;
-  width: 85%;
-  margin-top: 2vh;
-  line-height: 4vh;
-}
-
-/*  EDUCATION   */
-
-.education {
-  margin: 3em 1em;
-}
-
-.education-text li {
-  list-style: none;
-}
-
-.education-text h3 {
-  color: var(--white);
-  margin-top: 2em;
-  font-weight: lighter;
-}
-
-.education-text p {
-  color: var(--viola-text);
+  margin-top: 1vh;
+  line-height: 4.5vh;
 }
 
 /*  PROJECTS   */
@@ -159,10 +140,13 @@ nav i:active {
 .title {
   font-family: AvertaBold, sans-serif;
   font-size: 7vmax;
-  line-height: 9.8vw;
   color: rgba(0, 0, 0, 0);
   -webkit-text-stroke: 1px #cecae3;
   -webkit-font-smoothing: antialiased;
+}
+
+.education .title {
+  line-height: 6vh;
 }
 
 .single-project {
@@ -174,7 +158,8 @@ nav i:active {
 
 .single-project-text {
   color: var(--viola-text);
-  padding: 1em 3em 3em 3em;
+  padding: 2em;
+  padding-top: 1em;
   line-height: 3vh;
 }
 
@@ -187,10 +172,6 @@ nav i:active {
 .single-project:nth-child(odd) {
   text-align: right;
   align-self: flex-end;
-}
-
-.single-project a {
-  text-decoration: none;
 }
 
 .one {
@@ -221,7 +202,7 @@ nav i:active {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  height: 60vh;
+  height: 70vw;
 }
 
 .single-project-overlay:hover {
@@ -274,6 +255,30 @@ nav i:active {
   right: 15px;
 }
 
+/*  EDUCATION   */
+
+.education {
+  margin: 7vw 1em;
+}
+
+.education-text li {
+  list-style: none;
+}
+
+.education-text h3 {
+  color: var(--white);
+  margin-top: 2em;
+  font-weight: lighter;
+}
+
+.education-text p {
+  color: var(--viola-text);
+}
+
+.education a h3:hover {
+  letter-spacing: 1px;
+}
+
 /*   FOOTER */
 
 footer {
@@ -292,7 +297,7 @@ footer ul {
 }
 
 .list-items {
-  padding: 0.5em 2em;
+  padding: 0.6vw 3.5vw;
   border-left: solid 2px var(--white);
   cursor: pointer;
 }
@@ -306,14 +311,13 @@ footer ul {
 }
 
 .list-items a {
-  text-decoration: none;
   color: white;
 }
 
 #mail2 .tooltiptext {
   visibility: hidden;
   color: black;
-  margin-top: -35px;
+  margin-top: -30px;
   margin-left: -27px;
 }
 
@@ -330,24 +334,35 @@ footer ul {
   visibility: hidden;
   text-align: center;
   padding: 1px;
+  margin-left: -40px;
 }
 
 nav ul li:last-child:hover .tooltiptext {
   visibility: visible;
-  margin-left: -40px;
 }
 
 @media only screen and (min-width: 700px) {
+  nav i {
+    font-size: 5vmin;
+  }
   .landing {
     display: flex;
-    margin-top: 15vh;
+    margin-top: 10vw;
   }
   .landing-text {
-    padding: 2em 0.2em 1em 0.2em;
+    padding: 2em 0 1em 0.8em;
   }
   .landing-title1 {
     top: -50px;
   }
+  .landing-title2 {
+    font-size: 7vmax;
+  }
+  .landing-title3 {
+    padding-left: 0.3em;
+    width: 88%;
+  }
+
   .projects {
     width: 90%;
     margin: 0 auto;
@@ -357,5 +372,18 @@ nav ul li:last-child:hover .tooltiptext {
   }
   .education {
     margin-bottom: 7em;
+  }
+
+  .education-text {
+    width: 70%;
+  }
+
+  .education .title {
+    line-height: normal;
+  }
+
+  .single-project-img {
+    width: 100%;
+    height: 30vw;
   }
 }
