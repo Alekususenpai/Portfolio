@@ -57,7 +57,7 @@ nav ul {
 
 nav i {
   color: var(--white);
-  font-size: 6.5vmin;
+  font-size: 2em;
   padding: 0.3em;
 }
 
@@ -84,17 +84,18 @@ nav i:active {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  margin-left: 8%;
+  margin-left: 7.5%;
 }
 
 .img {
   position: relative;
   top: -26px;
+  left: -2.5px;
   content: "";
   background-image: url("img.png");
   background-size: cover;
-  width: 279px;
-  height: 303px;
+  width: 283px;
+  height: 306px;
   border-radius: 0 0 50% 50%;
 }
 
@@ -104,9 +105,10 @@ nav i:active {
 }
 
 .landing-title1 {
-  font-size: 5vmin;
+  font-size: 5.5vmin;
   position: absolute;
-  left: 230px;
+  left: 215px;
+  top: 7px;
   width: fit-content;
 }
 
@@ -342,8 +344,16 @@ nav ul li:last-child:hover .tooltiptext {
 }
 
 @media only screen and (min-width: 700px) {
+  .img-container {
+    margin-left: 8%;
+  }
+
+  .tooltiptext {
+    margin-left: -23px;
+  }
   nav i {
     font-size: 5vmin;
+    padding-top: 0.5em;
   }
   .landing {
     display: flex;
@@ -354,7 +364,10 @@ nav ul li:last-child:hover .tooltiptext {
   }
   .landing-title1 {
     top: -50px;
+    left: 230px;
+    font-size: 5vmin;
   }
+
   .landing-title2 {
     font-size: 7vmax;
   }
