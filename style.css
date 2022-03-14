@@ -6,12 +6,12 @@
 
 @font-face {
   font-family: AvertaBold;
-  src: url(AvertaDemoPE-ExtraBold.otf);
+  src: url(./Font/AvertaDemoPE-ExtraBold.otf);
 }
 
 @font-face {
   font-family: AvertaRegular;
-  src: url(AvertaDemoPECuttedDemo-Regular.otf);
+  src: url(./Font/AvertaDemoPECuttedDemo-Regular.otf);
 }
 
 body {
@@ -92,7 +92,7 @@ nav i:active {
   top: -26px;
   left: -2.5px;
   content: "";
-  background-image: url("img.png");
+  background-image: url("./Media/img.png");
   background-size: cover;
   width: 283px;
   height: 306px;
@@ -177,27 +177,27 @@ nav i:active {
 }
 
 .one {
-  background-image: url("./caffeinated.png");
+  background-image: url("./Media/caffeinated.png");
 }
 
 .two {
-  background-image: url("./crl-landingpage.png");
+  background-image: url("./Media/crl-landingpage.png");
 }
 
 .three {
-  background-image: url("./bookreviews.png");
+  background-image: url("./Media/bookreviews.png");
 }
 
 .four {
-  background-image: url("./animekitsu.png");
+  background-image: url("./Media/animekitsu.png");
 }
 
 .five {
-  background-image: url("./workboard.png");
+  background-image: url("./Media/workboard.png");
 }
 
 .six {
-  background-image: url("./rickandmorty.png");
+  background-image: url("./Media/rickandmorty.png");
 }
 
 .single-project-img {
