@@ -188,4 +188,12 @@ const certifications = [
   },
 ];
 
-export { technologies, experiences, projects, certifications };
+const socialMedia = [
+  {
+    name: 'LinkedIn',
+    icon: javascript,
+    link: 'https://www.linkedin.com/in/alekusu/'
+  }
+]
+
+export { technologies, experiences, projects, certifications, socialMedia };
