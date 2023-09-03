@@ -5,9 +5,9 @@ import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 
 const SkillCard = ({ index, name, icon }) => (
-  <div className="xs:w-[130px] w-full">
+  <div className="xs:w-[130px] w-[123px]">
     <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+      variants={fadeIn("right", "spring", index * 0.4, 0.85)}
       className="w-full blue-violet-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div
@@ -32,9 +32,9 @@ const SkillCard = ({ index, name, icon }) => (
 
 const Tech = () => {
   return (
-    <div className="mt-20">
+    <div className="mx-5 lg:mx-20">
       <h3 className="text-white font-bold text-[24px]">Skill set</h3>
-      <div className="mt-6 flex flex-wrap gap-10">
+      <div className="mt-6 flex flex-wrap justify-center md:justify-start gap-10">
         {technologies.map((tech, index) => (
           <SkillCard key={tech.name} index={index} {...tech} />
         ))}

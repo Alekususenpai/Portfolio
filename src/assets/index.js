@@ -37,6 +37,11 @@ import sfCommerceDeveloper from "./certifications/sf-commerce-developer.png";
 import sfJavascriptDeveloper from "./certifications/sf-javascript-developer.png";
 import softwareFundamentalsMicrosoft from "./certifications/software-fundamentals-microsoft.png";
 
+/** socialMedia */
+import githubLogo from "./socialMedia/githubLogo.png";
+import linkedinLogo from "./socialMedia/linkedinLogo.png";
+import salesforceLogo from "./socialMedia/salesforceLogo.png";
+
 export {
   logo,
   web,
@@ -56,13 +61,16 @@ export {
   expressjs,
   jest,
   nextjs,
-  salesforce, 
+  salesforce,
   mtaIntroductionToProgramming,
-  jsAlgorithmsAndDataStructures, 
-  sfCommerceDeveloper, 
-  sfJavascriptDeveloper, 
+  jsAlgorithmsAndDataStructures,
+  sfCommerceDeveloper,
+  sfJavascriptDeveloper,
   softwareFundamentalsMicrosoft,
   freelancer,
   dept,
-  explorista
+  explorista,
+  githubLogo,
+  linkedinLogo,
+  salesforceLogo
 };

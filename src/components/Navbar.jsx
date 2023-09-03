@@ -33,28 +33,30 @@ const Navbar = () => {
         scrolled ? "bg-[#1d1836]" : "bg-transparent"
       }`}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
-          to='/'
-          className='flex items-center gap-2'
+          to="/"
+          className="flex items-center gap-2"
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Aleksandra Jovanovska&nbsp;
-            <span className='sm:block hidden'> | Portfolio</span>
+            <span className="md:block hidden"> | Portfolio</span>
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className="list-none hidden sm:flex flex-row md:gap-10 gap-5">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-white" : "text-secondary"
+                active === nav.title
+                  ? "text-white underline underline-offset-8 decoration-cyan-300/60"
+                  : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
@@ -63,20 +65,20 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
-            alt='menu'
-            className='w-[28px] h-[28px] object-contain'
+            alt="menu"
+            className="w-[28px] h-[28px] object-contain"
             onClick={() => setToggle(!toggle)}
           />
 
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-6 bg-tertiary absolute top-16 right-0 my-2 w-full z-10 rounded-xl justify-center`}
           >
-            <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
+            <ul className="list-none flex flex-col gap-4">
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}

@@ -5,16 +5,12 @@ import { styles } from "../styles";
 import { info } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { Tech } from ".";
-import Certifications from "./Certifications";
 
 const About = () => {
   return (
-    <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
-      </motion.div>
+    <motion.div variants={textVariant()}>
+      <p className={styles.sectionSubText}>Introduction</p>
+      <h2 className={styles.sectionHeadText}>Overview.</h2>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
@@ -25,10 +21,7 @@ const About = () => {
           <p className="mt-5">{info.cta}</p>
         </>
       </motion.p>
-
-      <Tech />
-      <Certifications />
-    </>
+    </motion.div>
   );
 };
 

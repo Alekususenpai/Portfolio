@@ -21,7 +21,10 @@ import {
   softwareFundamentalsMicrosoft,
   freelancer,
   dept,
-  explorista
+  explorista,
+  githubLogo,
+  linkedinLogo,
+  salesforceLogo
 } from "../assets";
 
 export const info = {
@@ -191,9 +194,19 @@ const certifications = [
 const socialMedia = [
   {
     name: 'LinkedIn',
-    icon: javascript,
+    icon: linkedinLogo,
     link: 'https://www.linkedin.com/in/alekusu/'
-  }
+  },
+  {
+    name: 'Salesforce',
+    icon: salesforceLogo,
+    link: 'https://www.salesforce.com/trailblazer/jaleksandra/'
+  },
+  {
+    name: 'GitHub',
+    icon: githubLogo,
+    link: 'https://github.com/Alekususenpai/'
+  },
 ]
 
 export { technologies, experiences, projects, certifications, socialMedia };

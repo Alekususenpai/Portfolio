@@ -35,9 +35,9 @@ const CertCard = ({ index, name, image, link }) => (
 
 const Certifications = () => {
   return (
-    <div className="mt-20">
+    <div className="mx-5 lg:mx-20">
       <h3 className="text-white font-bold text-[24px]">Certifications</h3>
-      <div className="mt-6 flex flex-wrap gap-10">
+      <div className="mt-6 flex flex-wrap justify-center md:justify-start gap-10">
         {certifications.map((cert, index) => (
           <CertCard key={cert.name} index={index} {...cert} />
         ))}
