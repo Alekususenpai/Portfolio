@@ -76,9 +76,9 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 bg-tertiary absolute top-16 right-0 my-2 w-full z-10 rounded-xl justify-center`}
+            } p-9 bg-tertiary absolute top-16 right-0 my-2 w-full z-10 rounded-xl justify-center`}
           >
-            <ul className="list-none flex flex-col gap-4">
+            <ul className="list-none flex flex-col gap-6">
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}

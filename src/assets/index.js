@@ -25,6 +25,8 @@ import expressjs from "./tech/expressjs.jpg";
 import jest from "./tech/jest.png";
 import nextjs from "./tech/nextjs.png";
 import salesforce from "./tech/salesforce.png";
+import python from "./tech/python.png";
+import aws from "./tech/aws.png";
 
 /** projects */
 import explorista from "./projects/explorista.png";
@@ -36,6 +38,7 @@ import mtaIntroductionToProgramming from "./certifications/mta-introduction-to-p
 import sfCommerceDeveloper from "./certifications/sf-commerce-developer.png";
 import sfJavascriptDeveloper from "./certifications/sf-javascript-developer.png";
 import softwareFundamentalsMicrosoft from "./certifications/software-fundamentals-microsoft.png";
+import python1Certificate from "./certifications/python1Certificate.png";
 
 /** socialMedia */
 import githubLogo from "./socialMedia/githubLogo.png";
@@ -62,11 +65,14 @@ export {
   jest,
   nextjs,
   salesforce,
+  python,
+  aws,
   mtaIntroductionToProgramming,
   jsAlgorithmsAndDataStructures,
   sfCommerceDeveloper,
   sfJavascriptDeveloper,
   softwareFundamentalsMicrosoft,
+  python1Certificate,
   freelancer,
   dept,
   explorista,

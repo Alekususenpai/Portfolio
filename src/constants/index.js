@@ -1,5 +1,4 @@
 import {
-  web,
   javascript,
   typescript,
   html,
@@ -14,6 +13,8 @@ import {
   jest,
   nextjs,
   salesforce,
+  python,
+  aws,
   mtaIntroductionToProgramming,
   jsAlgorithmsAndDataStructures,
   sfCommerceDeveloper,
@@ -24,7 +25,8 @@ import {
   explorista,
   githubLogo,
   linkedinLogo,
-  salesforceLogo
+  salesforceLogo,
+  python1Certificate,
 } from "../assets";
 
 export const info = {
@@ -99,11 +101,19 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "git",
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "Git",
     icon: git,
   },
   {
-    name: "Unit Testing",
+    name: "Jest",
     icon: jest,
   },
 ];
@@ -188,6 +198,11 @@ const certifications = [
     name: "JavaScript Algorithms and Data Structures",
     image: jsAlgorithmsAndDataStructures,
     link: 'https://www.freecodecamp.org/certification/Alekusu/javascript-algorithms-and-data-structures',
+  },
+  {
+    name: "Python Essentials 1 by Cisco Networking Academy",
+    image: python1Certificate,
+    link: 'https://www.credly.com/badges/ac335a81-8b11-4c44-a6d9-a0cc352e4147/public_url',
   },
 ];
 
