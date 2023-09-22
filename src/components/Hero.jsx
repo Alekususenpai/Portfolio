@@ -1,5 +1,5 @@
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import { ThreeScene } from "./canvas";
 import { info } from "../constants";
 
 const Hero = () => {
@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      <ThreeScene />
 
     </section>
   );

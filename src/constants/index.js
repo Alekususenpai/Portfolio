@@ -132,11 +132,11 @@ const experiences = [
     iconBg: "#383E56",
     date: "Dec 2021 - May 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Implementing new features such as interactive forms with real-time validation, responsive navigation menu, data filtering and sorting",
-      "Refactoring code for reusability and maintainability",
-      "Enhancing the UI using using libraries or custom CSS to achieve a pixel perfect and responsive web design across all devices",
-      "Fixing small bugs"
+      "Developed and maintained web applications using React.js and other related technologies (Node, MySQL, AWS)",
+      "Implemented new features such as interactive forms with real-time validation, responsive navigation menu, data filtering and sorting",
+      "Refactored code for reusability and maintainability",
+      "Enhanced the UI using using libraries or custom CSS to achieve a pixel perfect and responsive web design across all devices",
+      "Fixed small bugs"
     ],
   },
   {
@@ -146,9 +146,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jul 2022 - August 2023",
     points: [
-      "Building and deploying multiple brands for our client to the US/EU market through the establishment of distinct cartridge setups, managing localization, and implementing market-specific features",
-      "Integrating Page Designer pages at strategic locations editable via the BM, configuring jobs, content slots, creating/extending controllers, decorators, ISML, crafting a tailored site configuration with toggleable functionalities",
-      "Developing with PWA Kit for SFCC Composable Storefront with React and Typescript, later integrated with Contentful"
+      "Took part in the development and deployment of multiple brands for our client to the US and EU market through the establishment of distinct cartridge setups, managed localization, and implemented market-specific features",
+      "Integrated Page Designer pages at strategic locations editable via the Business Manager, configured jobs, content slots, creating/extending controllers, decorators, ISML, crafted a tailored site configuration with toggleable functionalities",
+      "Participated in the development with PWA Kit for the SFCC Composable Storefront with React and Typescript, integrated with Contentful"
     ],
   },
 ];
@@ -208,16 +208,20 @@ const projects = [
       "Website dedicated to the animated serie Rick and Morty. For further info on characters, episodes and locations, check the website.",
     tags: [
       {
-        name: "javascript",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "react",
+        name: "react-router",
         color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
+      },
+      {
+        name: "rest apis",
+        color: "text-cyan-300",
       },
     ],
     image: rickMorty,

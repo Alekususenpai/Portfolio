@@ -1,3 +1,4 @@
-import ComputersCanvas from "./Computers";
+import ThreeScene from "./Model";
 
-export { ComputersCanvas };
+
+export { ThreeScene};
