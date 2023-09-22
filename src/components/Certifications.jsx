@@ -5,7 +5,7 @@ import { SectionWrapper } from "../hoc";
 import { certifications } from "../constants";
 
 const CertCard = ({ index, name, image, link }) => (
-  <a href={link} target="_blank">
+  <a href={link} target="_blank" rel="noopener noreferrer">
     <div className="xs:w-[240px] w-full h-full">
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}

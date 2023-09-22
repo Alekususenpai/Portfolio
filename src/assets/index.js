@@ -30,6 +30,12 @@ import aws from "./tech/aws.png";
 
 /** projects */
 import explorista from "./projects/explorista.png";
+import crlLandingPage from "./projects/crl-landing-page.png";
+import animeKitsu from "./projects/anime-kitsu.png";
+import rickMorty from "./projects/RickMorty.png";
+import workBoard from "./projects/workBoard.png";
+import interactiveRC from "./projects/interactiveRC.png";
+import crowdfund from "./projects/crowdfund.png";
 
 
 /** certifications */
@@ -76,6 +82,12 @@ export {
   freelancer,
   dept,
   explorista,
+  animeKitsu,
+  crlLandingPage,
+  rickMorty,
+  workBoard,
+  interactiveRC,
+  crowdfund,
   githubLogo,
   linkedinLogo,
   salesforceLogo

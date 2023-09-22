@@ -23,6 +23,12 @@ import {
   freelancer,
   dept,
   explorista,
+  crlLandingPage,
+  animeKitsu,
+  rickMorty,
+  workBoard,
+  interactiveRC,
+  crowdfund,
   githubLogo,
   linkedinLogo,
   salesforceLogo,
@@ -151,6 +157,7 @@ const experiences = [
 const projects = [
   {
     name: "Explorista",
+    level: 'junior',
     description:
       "Explorista is an unique platform that brings fun and interactive experiences - you can learn new things, try out creative workshops, and even explore different cultures without the need to leave your home.",
     tags: [
@@ -170,6 +177,140 @@ const projects = [
     image: explorista,
     source_code_link: "https://github.com/Alekususenpai/explorista",
     deployment_link: "https://explorista.netlify.app",
+  },
+  {
+    name: "Anime Kitsu",
+    level: 'entry',
+    description:
+      "Website to search for anime and manga experiences, get recommendations and check what friends are watching or reading.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: animeKitsu,
+    source_code_link: "https://github.com/Alekususenpai/anime-kitsu",
+    deployment_link: "https://anime-kitsu.netlify.app",
+  },
+  {
+    name: "Rick and Morty",
+    level: 'junior',
+    description:
+      "Website dedicated to the animated serie Rick and Morty. For further info on characters, episodes and locations, check the website.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: rickMorty,
+    source_code_link: "https://github.com/Alekususenpai/Rick-n-Morty",
+    deployment_link: "https://alekususenpai.github.io/Rick-n-Morty",
+  },
+  {
+    name: "Work Board",
+    level: 'entry',
+    description:
+      "WorkBoard's goal is to provide you with some basic tools to increase your productivity. Consists of a calendar, pomodoro timer and to-do list.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: workBoard,
+    source_code_link: "https://github.com/Alekususenpai/work-board",
+    deployment_link: "https://alekususenpai.github.io/work-board/",
+  },
+  {
+    name: "Interactive Rating Component",
+    level: 'entry',
+    description:
+      "Interactive rating component challenge from Frontend Mentor which involves handling user interaction and updating the DOM.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: interactiveRC,
+    source_code_link: "https://github.com/Alekususenpai/interactive-rating-component",
+    deployment_link: "https://alekususenpai.github.io/interactive-rating-component/",
+  },
+  {
+    name: "Crowdfunding Product Page",
+    level: 'entry',
+    description:
+      "Interactive rating component challenge from Frontend Mentor which involves handling user interaction and updating the DOM.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: crowdfund,
+    source_code_link: "https://github.com/Alekususenpai/crowdfunding-product-page",
+    deployment_link: "https://alekususenpai.github.io/crowdfunding-product-page/",
+  },
+  {
+    name: "CRL Landing Page",
+    level: 'entry',
+    description:
+      "CRL landing page following the “Mobile First” principle and Responsive Web Design made with Flexbox.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: crlLandingPage,
+    source_code_link: "https://github.com/Alekususenpai/crl-landing-page",
+    deployment_link: "https://alekususenpai.github.io/crl-landing-page/",
   },
 ];
 
