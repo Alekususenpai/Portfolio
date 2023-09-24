@@ -37,14 +37,14 @@ const Model = () => {
 const CyberGirl = () => {
   return (
     <section className="absolute bottom-0 w-full h-[75%]">
-      <Canvas shadows frameloop="demand" dpr={1}>
+      <Canvas shadows frameloop="demand" dpr={[1, 2]}>
         <Suspense fallback={<CanvasLoader />}>
           <ambientLight />
           <pointLight position={[10, 10, 10]} />
           <OrbitControls
             enableZoom={false}
-            enablePan={false} // Disable panning
-            autoRotate={true} // Disable auto rotation
+            enablePan={false}
+            autoRotate={false}
             maxPolarAngle={Math.PI / 2}
             minPolarAngle={Math.PI / 2}
           />
