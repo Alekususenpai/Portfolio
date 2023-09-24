@@ -18,7 +18,7 @@ const About = () => {
       >
         <>
           {info.overview}
-          <p className="mt-5">{info.cta}</p>
+          <span className="mt-5">{info.cta}</span>
         </>
       </motion.p>
     </motion.div>

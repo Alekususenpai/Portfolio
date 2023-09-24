@@ -1,4 +1,4 @@
-import ThreeScene from "./Model";
+import CyberGirl from "./CyberGirl";
 
 
-export { ThreeScene};
+export { CyberGirl};

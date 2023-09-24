@@ -188,15 +188,12 @@ const Works = () => {
           .filter((project) => project.level === selected.level)
           .map((project, index) => (
             <div
+              key={index}
               className={`transition-opacity ${
                 isVisible ? "opacity-100 animate-fadeInCustom" : "opacity-0"
               }`}
             >
-              <ProjectCard
-                key={`project-${index}`}
-                index={index}
-                {...project}
-              />
+              <ProjectCard {...project} />
             </div>
           ))}
       </div>
