@@ -28,7 +28,7 @@ const Model = () => {
       object={gltf.scene}
       ref={modelRef}
       scale={1.55}
-      position={[0.4, -2, 3]}
+      position={[0.5, -2, 3]}
       rotation={[0.3, -0.4, 0]}
     />
   );
@@ -36,7 +36,7 @@ const Model = () => {
 
 const CyberGirl = () => {
   return (
-    <section className="absolute bottom-0 w-full h-[75%]">
+    <section className="absolute bottom-0 w-full h-[68%]">
       <Canvas shadows frameloop="demand" dpr={[1, 2]}>
         <Suspense fallback={<CanvasLoader />}>
           <ambientLight />
