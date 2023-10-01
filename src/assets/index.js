@@ -36,6 +36,7 @@ import rickMorty from "./projects/RickMorty.png";
 import workBoard from "./projects/workBoard.png";
 import interactiveRC from "./projects/interactiveRC.png";
 import crowdfund from "./projects/crowdfund.png";
+import opinia from "./projects/opinia.png";
 
 
 /** certifications */
@@ -88,6 +89,7 @@ export {
   workBoard,
   interactiveRC,
   crowdfund,
+  opinia,
   githubLogo,
   linkedinLogo,
   salesforceLogo

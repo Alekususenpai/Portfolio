@@ -29,6 +29,7 @@ import {
   workBoard,
   interactiveRC,
   crowdfund,
+  opinia,
   githubLogo,
   linkedinLogo,
   salesforceLogo,
@@ -166,7 +167,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "vite",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
@@ -315,6 +316,29 @@ const projects = [
     image: crlLandingPage,
     source_code_link: "https://github.com/Alekususenpai/crl-landing-page",
     deployment_link: "https://alekususenpai.github.io/crl-landing-page/",
+  },
+  {
+    name: "Opinia",
+    level: 'junior',
+    description:
+      "Opinia is a product feedback app designed to streamline the feedback process for both users and product developers. Users can create, read, update, and delete feedbacks.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react context",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: opinia,
+    source_code_link: "https://github.com/Alekususenpai/opinia",
+    deployment_link: "https://opinia.netlify.app",
   },
 ];
 
