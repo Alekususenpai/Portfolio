@@ -9,7 +9,7 @@ const CertCard = ({ index, name, image, link }) => (
     <div className="xs:w-[240px] w-full h-full">
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-        className="w-full h-full blue-violet-gradient p-[1px] rounded-[20px] shadow-card"
+        className="w-full h-full accent-gradient p-[1px] rounded-[20px] shadow-card"
       >
         <div
           options={{

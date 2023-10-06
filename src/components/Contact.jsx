@@ -113,7 +113,7 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="w-full lg:w-[65%] bg-black-100 p-8 rounded-2xl"
+        className="w-full lg:w-[65%] bg-[#100d25] p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -159,7 +159,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="bg-tertiary py-3 px-8 rounded-xl border border-cyan-300/30 w-fit text-white font-bold shadow-md shadow-primary"
+            className="bg-tertiary py-3 px-8 rounded-xl border border-accent/40 w-fit text-white font-bold shadow-md shadow-primary"
           >
             {loading ? "Sending..." : "Send"}
           </button>

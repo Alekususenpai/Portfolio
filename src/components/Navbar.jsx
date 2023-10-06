@@ -55,7 +55,7 @@ const Navbar = () => {
               key={nav.id}
               className={`${
                 active === nav.title
-                  ? "text-white underline underline-offset-8 decoration-cyan-300/60"
+                  ? "text-white underline underline-offset-8 decoration-accent"
                   : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}

@@ -8,7 +8,7 @@ const SkillCard = ({ index, name, icon }) => (
   <div className="xs:w-[130px] w-[123px]">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.4, 0.85)}
-      className="w-full blue-violet-gradient p-[1px] rounded-[20px] shadow-card"
+      className="w-full accent-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div
         options={{

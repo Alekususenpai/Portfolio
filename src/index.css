@@ -19,6 +19,11 @@
   display: block;
 }
 
+.accent-gradient {
+  background: linear-gradient(90.13deg, #1ccceb 1.9%, #D2B4DE 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #1ccceb 1.9%, #D2B4DE 97.5%);
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -31,22 +36,6 @@
     #434343,
     #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.blue-gradient {
-  background: #1bbee7;
-  background: linear-gradient(-90deg, #1bbee7 0%, rgba(60, 51, 80, 0) 100%);
-  background: -webkit-linear-gradient(
-    -90deg,
-    #1bbee7 0%,
-    rgba(60, 51, 80, 0) 100%
-  );
-}
-
-.blue-violet-gradient {
-  background: "#00cea8";
-  background: linear-gradient(90.13deg, #1ccceb 1.9%, #6461ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #1ccceb 1.9%, #6461ff 97.5%);
 }
 
 .orange-text-gradient {

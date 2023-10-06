@@ -121,7 +121,7 @@ const Works = () => {
 
                 <span className="pointer-events-none absolute inset-y-0 right-0 ml-3 flex items-center pr-2">
                   <ChevronUpDownIcon
-                    className="h-5 w-5 text-[#32d3fc]"
+                    className="h-5 w-5 text-accent"
                     aria-hidden="true"
                   />
                 </span>
@@ -162,7 +162,7 @@ const Works = () => {
                           {selected ? (
                             <span
                               className={classNames(
-                                active ? "text-white" : "text-[#32d3fc]",
+                                active ? "text-white" : "text-accent",
                                 "absolute inset-y-0 right-0 flex items-center pr-4"
                               )}
                             >

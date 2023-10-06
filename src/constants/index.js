@@ -39,8 +39,8 @@ import {
 export const info = {
   shortDescription: "I develop with Salesforce and React",
   overview: " I'm a junior developer with experience in JavaScript, React, and Salesforce. My goal is to create efficient, scalable, and user-friendly solutions that solve real-world problems.",
-  cta: "Let's work together to bring your ideas to life!",
-  projects: "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively."
+  cta: "",
+  projects: "Following projects showcase my skills and experience through examples of my work. Each project is briefly described with links to code repositories and live demos in it."
 }
 
 export const navLinks = [
